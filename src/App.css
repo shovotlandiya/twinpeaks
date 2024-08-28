@@ -7,9 +7,12 @@
   pointer-events: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body{
-  background-color:#EAEAEA ;
+  background-color:#f5f5f7 ;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

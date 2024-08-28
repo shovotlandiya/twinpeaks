@@ -6,7 +6,7 @@ import AIImage from "../assets/ai.png";
 export default class Welcome extends Component {
   render() {
     return (
-      <div className="w-screen h-screen flex items-center bg-white">
+      <div id="about" className="w-screen h-screen flex items-center bg-white">
         <div className="container mx-auto flex justify-between items-center">
           <div>
             <img

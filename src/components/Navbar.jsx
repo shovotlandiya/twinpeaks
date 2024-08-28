@@ -34,11 +34,11 @@ const Navbar = () => {
           </div>
           <nav>
             <ul className="flex justify-between">
-              <li className="pr-12 text-lg text-text-color font-inter">
-                <a href="/# pr-2">ABOUT US</a>
+              <li className="pr-12 text-lg text-text-color duration-300 font-inter hover:text-black">
+                <a href="#about">ABOUT US</a>
               </li>
-              <li className="text-text-color text-lg font-inter">
-                <a href="/#">WHAT WE DO</a>
+              <li className="text-text-color text-lg duration-300 font-inter hover:text-black">
+                <a href="#whatwedo">WHAT WE DO</a>
               </li>
             </ul>
           </nav>

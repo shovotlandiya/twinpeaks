@@ -6,7 +6,7 @@ import Advanced from "../assets/advanced.jpg";
 export default class SelectedAreas extends Component {
   render() {
     return (
-      <div className="w-screen h-screen  ">
+      <div id="whatwedo" className="w-screen h-screen  ">
         <div className=" w-full">
           <div className="container mx-auto z-100 ">
             <h3 className="text-4xl py-8 font-semibold font-inter text-center text-text-color">
