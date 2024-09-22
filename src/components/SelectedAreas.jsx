@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 
-import MarketImage from "../assets/markets.png";
-import Advanced from "../assets/advanced.jpg";
+import FirstImage from "../assets/icons web 1.png";
+import SecondImage from "../assets/icons web 2.png";
+import ThirdImage from "../assets/icons web 3.png";
 
 export default class SelectedAreas extends Component {
   render() {
     return (
-      <div id="whatwedo" className="w-screen h-screen  ">
+      <div id="whatwedo" className="w-screen h-screen">
         <div className=" w-full">
           <div className="container mx-auto z-100 ">
             <h3 className="text-4xl py-8 font-semibold font-inter text-center text-text-color">
@@ -16,7 +17,7 @@ export default class SelectedAreas extends Component {
               <div className=" rounded-lg p-8 text-justify">
                 <img
                   className="w-full  aspect-w-1 h-full object-cover  duration-300 hover:scale-105"
-                  src={Advanced}
+                  src={FirstImage}
                   alt=""
                 />
                 <h3 className="text-2xl my-2  font-semibold font-inter text-header-color">
@@ -32,7 +33,7 @@ export default class SelectedAreas extends Component {
                 {" "}
                 <img
                   className="w-full aspect-w-1 h-full object-cover  duration-300 hover:scale-105"
-                  src={Advanced}
+                  src={SecondImage}
                   alt=""
                 />
                 <h3 className=" text-header-color text-2xl my-2  font-semibold font-inter">
@@ -48,7 +49,7 @@ export default class SelectedAreas extends Component {
                 {" "}
                 <img
                   className="w-full aspect-w-1 h-full object-cover  duration-300 hover:scale-105"
-                  src={Advanced}
+                  src={ThirdImage}
                   alt="bnma"
                 />
                 <h3 className="text-2xl my-2 text-header-color font-semibold font-inter">

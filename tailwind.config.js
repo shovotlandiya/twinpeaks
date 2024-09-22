@@ -12,8 +12,11 @@ module.exports = {
       },
       colors: {
         "text-color": "#111111",
-        customColor: "#304848",
+        footerColor: "#133d4a",
         "light-gray": "#EAEAEA",
+      },
+      fontSize: {
+        fontText: "10px",
       },
       backgroundImage: {
         "custom-image":

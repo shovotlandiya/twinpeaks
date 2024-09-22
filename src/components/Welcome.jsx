@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import AIImage from "../assets/ai.png";
-// import BGImage from "../assets/bg.svg";
+import AIImage from "../assets/icons web 4.png";
+import Triangle from "../assets/triangle.png";
 
 export default class Welcome extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class Welcome extends Component {
         <div className="container mx-auto flex justify-between items-center">
           <div>
             <img
-              width={500}
+              width={550}
               src={AIImage}
               alt="Image"
               className="shadow-custom"
