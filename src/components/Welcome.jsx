@@ -7,17 +7,17 @@ export default class Welcome extends Component {
   render() {
     return (
       <div id="about" className="w-screen h-screen flex items-center bg-white">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container mx-auto flex lg:flex-row flex-col justify-between items-center">
           <div>
             <img
               width={550}
               src={AIImage}
               alt="Image"
-              className="shadow-custom"
+              className="shadow-custom object-cover"
             />
           </div>
           <div className="max-w-2xl text-start">
-            <h2 className="text-4xl pb-4 font-semibold font-inter text-text-color">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left pb-4 font-semibold font-inter text-text-color">
               Welcome to TwinPeaks.ai{" "}
             </h2>
             <p className="text-lg font-inter  text-text-value text-opacity-75">
@@ -32,7 +32,7 @@ export default class Welcome extends Component {
             <div>
               <div className="flex justify-between items-center flex-col gap-4 mt-4">
                 <div className="shadow-custom-multi p-3 rounded-md p-3 duration-500 border-2 hover:border-text-color">
-                  <h3 className="text-xl font-semibold font-inter mb-1 text-header-color">
+                  <h3 className="text-xl text-center lg:text-left font-semibold font-inter mb-1 text-header-color">
                     Our mission
                   </h3>
                   <p className="text-lg  font-inter text-gray-500 text-opacity-75 duration-500 hover:text-text-color">
@@ -43,7 +43,7 @@ export default class Welcome extends Component {
                   </p>
                 </div>
                 <div className="shadow-custom-multi rounded-md p-3 duration-500 border-2 hover:border-text-color">
-                  <h3 className="text-xl  font-semibold font-inter mb-1 text-header-color">
+                  <h3 className="text-xl text-center lg:text-left  font-semibold font-inter mb-1 text-header-color">
                     Our values
                   </h3>
                   <p className="text-lg font-inter text-gray-500 text-opacity-75 duration-500 hover:text-text-color">

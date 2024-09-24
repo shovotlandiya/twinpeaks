@@ -8,13 +8,13 @@ export default class SelectedAreas extends Component {
   render() {
     return (
       <div id="whatwedo" className="w-screen h-screen">
-        <div className=" w-full">
+        <div className="w-full">
           <div className="container mx-auto z-100 ">
-            <h3 className="text-4xl py-8 font-semibold font-inter text-center text-text-color">
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl py-8 font-semibold font-inter text-center text-text-color">
               Selected Areas
             </h3>
-            <div className="flex justify-between items-center gap-8">
-              <div className=" rounded-lg p-8 text-justify">
+            <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
+              <div className="rounded-lg p-8 text-justify">
                 <img
                   className="w-full  aspect-w-1 h-full object-cover  duration-300 hover:scale-105"
                   src={FirstImage}

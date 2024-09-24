@@ -9,7 +9,7 @@ export default function ProjectCard() {
         We work with you to build smarter products and businesses.
       </h3>
       <span className="container mx-auto border-t my-8 border-footerColor w-full block"></span>
-      <div className="flex justify-between  items-center gap-5">
+      <div className="flex-col flex lg:flex-row justify-between  items-center gap-5">
         <div className="text-left p-5 ">
           <h4 className=" text-left">Project 1</h4>
           <img

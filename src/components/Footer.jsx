@@ -9,7 +9,7 @@ import FooterLayer from "../assets/Layer.svg";
 export default class Footer extends Component {
   render() {
     return (
-      <div className="bg-footerColor p-6 ">
+      <div className="bg-footerColor p-6">
         <img
           className="h-auto max-w-sm w-full absolute left-0"
           src={FooterLayer}
