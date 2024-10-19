@@ -32,17 +32,19 @@ const Navbar = () => {
       >
         <div className="container mx-auto px-2 text-white flex justify-between items-center ">
           <div className="text-black text-2xl">
-            <img src={NavbarLogo} width={150} height={100} alt="" />
+            <a href="/#">
+              <img src={NavbarLogo} width={150} height={100} alt="" />
+            </a>
           </div>
           <nav>
-            <ul className="flex justify-between">
-              <li className=" text-lg text-text-color duration-300 font-inter hover:text-black">
+            <ul className="flex justify-between  ">
+              <li className="text-xs sm:text-lg text-text-color duration-300 font-inter hover:text-black">
                 <a href="#about">ABOUT US</a>
               </li>
-              <li className="text-text-color mx-6 text-lg duration-300 font-inter hover:text-black">
+              <li className="text-text-color sm:text-lg mx-6 text-xs duration-300 font-inter hover:text-black">
                 <a href="#whatwedo">WHAT WE DO</a>
               </li>
-              <li className="text-text-color  text-lg duration-300 font-inter hover:text-black">
+              <li className="text-text-color sm:text-lg  text-xs duration-300 font-inter hover:text-black">
                 <a href="#projects">PROJECTS</a>
               </li>
             </ul>
@@ -50,14 +52,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className="container  mx-auto flex flex-col  items-center pt-72">
-        <div className="flex justify-between items-center gap-8">
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
           <div className="max-w-xl">
-            <h1 className="text-7xl text-left font-inter customColor">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl xl:text-7xl text-left font-inter customColor">
               Your Bespoke AI Solutions
             </h1>
           </div>
-          <div className="text-left ">
-            <p className="text-xl text-left font-inter customColor pt-4 mb-4">
+          <div className="text-center lg:text-left ">
+            <p className="text-sm lg:text-xl text-center lg:text-left font-inter customColor lg:pt-4 mb-4">
               Transforming industries with AI: from smart infrastructure to
               advanced automation, we drive innovation and growth through
               tailored AI solutions
@@ -67,7 +69,7 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <span className="container mx-auto border-t my-8 border-footerColor w-full block"></span>
+
         {/* <div className="flex items-center justify-around">
           <div>
             <p>World-class expertise</p>

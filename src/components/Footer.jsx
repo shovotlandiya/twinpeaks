@@ -5,6 +5,7 @@ import Telegram from "../assets/telegram (3).svg";
 import Faceebok from "../assets/facebook (4).svg";
 import Instagram from "../assets/instagram (5).svg";
 import FooterLayer from "../assets/Layer.svg";
+import LinkId from "../assets/icons8-linkedin.svg";
 
 export default class Footer extends Component {
   render() {
@@ -50,7 +51,7 @@ export default class Footer extends Component {
             All rights reserved
           </h4>
           <ul className="flex justify-between items-center gap-6">
-            <li>
+            {/* <li>
               <a href="" target="_blank">
                 <img
                   className="h-auto max-w-12 w-full"
@@ -58,10 +59,10 @@ export default class Footer extends Component {
                   alt="telegram"
                 />
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://twitter.com/yourTwitterHandle"
+                href="https://www.instagram.com/twinpeaks.ai"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -75,14 +76,14 @@ export default class Footer extends Component {
             </li>
             <li>
               <a
-                href="https://linkedin.com/in/yourLinkedInHandle"
+                href="https://www.linkedin.com/company/twinpeaks-ai/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   className="h-auto max-w-12 w-full"
                   width={50}
-                  src={Faceebok}
+                  src={LinkId}
                   alt="telegram"
                 />
               </a>

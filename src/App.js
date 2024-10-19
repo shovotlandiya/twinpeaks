@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Welcome />
       <SelectedAreas />
-      <ProjectCard />
+      <ProjectCard />/
       <Footer />
     </div>
   );
